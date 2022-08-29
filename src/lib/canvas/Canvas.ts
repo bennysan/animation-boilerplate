@@ -55,6 +55,10 @@ export default class Canvas {
 
   private Draw() {
     this.ClearCanvas();
+    Point(
+      this.context,
+      new Vector2(this.HTMLElement.width / 2, this.HTMLElement.height / 2)
+    );
   }
 
   private Update() {}
